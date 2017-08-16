@@ -5,8 +5,8 @@ import (
 	"github.com/Sirupsen/logrus"
 	"github.com/gin-gonic/gin"
 	"github.com/gorilla/feeds"
-	"github.com/wangsongyan/wblog/models"
-	"github.com/wangsongyan/wblog/system"
+	"wblog/models"
+	"wblog/system"
 	"time"
 )
 

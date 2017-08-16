@@ -4,7 +4,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/microcosm-cc/bluemonday"
 	"github.com/russross/blackfriday"
-	"github.com/wangsongyan/wblog/models"
+	"wblog/models"
 	"net/http"
 	"strconv"
 )

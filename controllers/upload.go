@@ -2,13 +2,13 @@ package controllers
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/wangsongyan/wblog/system"
+	"wblog/system"
 	"mime/multipart"
 	"net/http"
 	"os"
-	"qiniupkg.com/api.v7/conf"
-	"qiniupkg.com/api.v7/kodo"
-	"qiniupkg.com/api.v7/kodocli"
+	"qiniupkg.com/api.v7-7.1.0/conf"
+	"qiniupkg.com/api.v7-7.1.0/kodo"
+	"qiniupkg.com/api.v7-7.1.0/kodocli"
 )
 
 // 获取文件大小的接口

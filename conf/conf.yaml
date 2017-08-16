@@ -1,8 +1,8 @@
-signup_enabled: true
-qiniu_accesskey:
-qiniu_secretkey:
-qiniu_fileserver:
-qiniu_bucket:
+signup_enabled: false
+qiniu_accesskey: hQDQ4uKlZMtqRdgqQhaVC5aGvt7x_cHvs0ZKUSxT
+qiniu_secretkey: Da_qHwNs_7K81k7-HHsV6Gq9GUgGCRUlrGAZypHy
+qiniu_fileserver: https://portal.qiniu.com
+qiniu_bucket: images
 github_clientid:
 github_clientsecret:
 github_authurl: https://github.com/login/oauth/authorize?client_id=%s&scope=user:email&state=%s

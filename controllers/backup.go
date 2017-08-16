@@ -6,15 +6,15 @@ import (
 	"github.com/cihub/seelog"
 	"github.com/gin-gonic/gin"
 	"github.com/pkg/errors"
-	"github.com/wangsongyan/wblog/helpers"
-	"github.com/wangsongyan/wblog/system"
+	"wblog/helpers"
+	"wblog/system"
 	"io/ioutil"
 	"net/http"
 	"os"
-	"qiniupkg.com/api.v7/conf"
-	"qiniupkg.com/api.v7/kodo"
-	"qiniupkg.com/api.v7/kodocli"
 	"time"
+	"qiniupkg.com/api.v7-7.1.0/conf"
+	"qiniupkg.com/api.v7-7.1.0/kodo"
+	"qiniupkg.com/api.v7-7.1.0/kodocli"
 )
 
 func BackupPost(c *gin.Context) {

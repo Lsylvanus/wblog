@@ -2,8 +2,8 @@ package system
 
 import (
 	"fmt"
-	"github.com/denisbakhtin/sitemap"
-	"github.com/wangsongyan/wblog/models"
+	sitemap "github.com/denisbakhtin/sitemap"
+	"wblog/models"
 	"os"
 	"path"
 	"time"

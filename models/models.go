@@ -8,7 +8,7 @@ import (
 	_ "github.com/mattn/go-sqlite3"
 	"github.com/microcosm-cc/bluemonday"
 	"github.com/russross/blackfriday"
-	//"github.com/wangsongyan/wblog/helpers"
+	//"wblog/helpers"
 	"html/template"
 	"strconv"
 	"time"

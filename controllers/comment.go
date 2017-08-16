@@ -5,7 +5,7 @@ import (
 	"github.com/gin-contrib/sessions"
 	"github.com/gin-gonic/gin"
 	"github.com/pkg/errors"
-	"github.com/wangsongyan/wblog/models"
+	"wblog/models"
 	"net/http"
 	"strconv"
 )

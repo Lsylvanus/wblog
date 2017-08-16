@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"github.com/gin-contrib/sessions"
 	"github.com/gin-gonic/gin"
-	"github.com/wangsongyan/wblog/helpers"
-	"github.com/wangsongyan/wblog/system"
+	"wblog/helpers"
+	"wblog/system"
 	"net/http"
 )
 
